@@ -137,6 +137,19 @@ const linkListFactory = () => {
       return str;
     }
   };
+
+  return {
+    append,
+    prepend,
+    size,
+    headNode,
+    tail,
+    at,
+    pop,
+    contains,
+    find,
+    toString,
+  };
 };
 
 const nodeFactory = (value) => {
